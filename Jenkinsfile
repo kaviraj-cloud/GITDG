@@ -36,10 +36,10 @@ pipeline {
 
                     /*sh """
                         make build ciBuildVersion=${params.ciBuildVersion} ciBuildBranch=${ciBuildBranch} ciBuildEnv=${params.ciBuildEnv} ciGitHash=${ciGitHash} ciBuildTimestamp="${ciBuildTimestamp}"
-                    """
+                    """*/
                 }
             }
-        }*/
+        }
 
  
          
